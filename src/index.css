@@ -1,14 +1,24 @@
 body {
   font-size: 30px;
-  background-color: #CCCCCC;
+  background-color: #cccccc;
 }
 
 div {
   max-width: 200px;
-  height: 200px;
-  margin: 0 auto;
+  margin: 10px auto;
   text-align: center;
+}
+
+.text {
   line-height: 200px;
   background-color: rgb(132, 0, 255);
-  color: #FCFCFC;
+  color: #fcfcfc;
+  height: 200px;
+}
+
+button {
+  background-color: aqua;
+  border-radius: 5px;
+  font-size: 2rem;
+  margin: 10px 0;
 }
